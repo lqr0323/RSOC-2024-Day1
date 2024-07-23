@@ -11,6 +11,9 @@ env操作：scons -j12,scons --dist,scons -c,scons等，具备一些Linux开发�
 
 ### 1.点灯
 首先，在一个文件夹下右键，打开env，输入 scons --dist,创建 dist 文件夹，再用vscode打开dist文件下的project文件夹
-在poject目录下，右键打开env，依次输入scons -j12 , scons -c , scons ，然后在vscode中按下键盘上的F5开始调试
-插上开发板，即可看见开发板上的等交替亮灭
+在poject目录下，右键打开env，依次输入scons -j12 , scons -c , scons ，然后在vscode中按下键盘上的F5开始调试  
+
+插上开发板，即可看见开发板上的灯交替亮灭  
+附图片：  
+！[light](https://github.com/lqr0323/RSOC-2024-Day1/blob/main/light.jpg)
 
