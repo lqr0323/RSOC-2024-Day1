@@ -40,7 +40,7 @@ int main(void)
 附结构目录：  
 ![structure](https://github.com/lqr0323/RSOC-2024-Day1/blob/main/structure.png)    
 串口打印截图：  
-
+![hello wworld](https://github.com/lqr0323/RSOC-2024-Day1/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-07-22%20235023.png)
 附hell.c,hello.h,main.c的源代码   
 ```
 //hello.h
