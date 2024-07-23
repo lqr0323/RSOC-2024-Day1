@@ -15,5 +15,5 @@ env操作：scons -j12,scons --dist,scons -c,scons等，具备一些Linux开发�
 
 插上开发板，即可看见开发板上的灯交替亮灭  
 附图片：  
-！ [light](https://github.com/lqr0323/RSOC-2024-Day1/blob/main/light.jpg)
+![light](https://github.com/lqr0323/RSOC-2024-Day1/blob/main/light.jpg)
 
