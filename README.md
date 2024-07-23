@@ -19,7 +19,41 @@ env操作：scons -j12,scons --dist,scons -c,scons等，具备一些Linux开发�
 ### 2.串口打印 Hello World  
 步骤同上，只需要修改main.c里面的代码创建一个文件夹来存放hello.c和hello.h  
 附结构目录：  
-![structure](https://github.com/lqr0323/RSOC-2024-Day1/blob/main/structure.png)
+![structure](https://github.com/lqr0323/RSOC-2024-Day1/blob/main/structure.png)  
+附hell.c,hello.h,main.c的源代码  
+```C
+//hello.h
+#ifndef HELLO_H
+#define HELLO_H
+
+#include <rtthread.h>
+
+void Print_Hello_World(void);
+
+#endif
+
+//hello.c
+#include "hello.h"
+
+void Print_Hello_World(void)
+{
+    rt_kprintf("Hello World\n");
+}
+
+//main.c
+#include <rtthread.h>
+#include "hello.h"
+
+int main(void)
+{
+    while (1)
+    {
+        Print_Hello_World();    //调用Hello.c里的函数
+        rt_thread_mdelay(1000);
+    }
+
+    return 0;
+}
 
 
 
