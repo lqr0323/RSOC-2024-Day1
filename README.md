@@ -19,6 +19,7 @@ env操作：scons -j12,scons --dist,scons -c,scons等，具备一些Linux开发�
 ### 2.串口打印 Hello World  
 步骤同上，只需要修改main.c里面的代码创建一个文件夹来存放hello.c和hello.h  
 附结构目录：  
+![structure](https://github.com/lqr0323/RSOC-2024-Day1/blob/main/structure.png)
 
 
 
