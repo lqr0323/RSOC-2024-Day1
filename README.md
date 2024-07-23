@@ -38,7 +38,9 @@ int main(void)
 ---
 步骤同上，只需要修改main.c里面的代码创建一个文件夹来存放hello.c和hello.h  
 附结构目录：  
-![structure](https://github.com/lqr0323/RSOC-2024-Day1/blob/main/structure.png)  
+![structure](https://github.com/lqr0323/RSOC-2024-Day1/blob/main/structure.png)    
+串口打印截图：  
+
 附hell.c,hello.h,main.c的源代码   
 ```
 //hello.h
